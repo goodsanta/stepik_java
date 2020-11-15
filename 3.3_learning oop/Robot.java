@@ -1,4 +1,5 @@
-public class Main {
+//class was taken from comments for testing purposes
+public class Robot {
 
     public enum Direction {
         UP,
@@ -6,9 +7,6 @@ public class Main {
         LEFT,
         RIGHT
     }
-
-    //class was taken from comments for testing purposes
-    public static class Robot {
 
         int x = 0;
         int y = 0;
@@ -94,7 +92,7 @@ public class Main {
                 this.x++;
             }
         }
-    }
+
 
     /**
      * На игровом поле находится робот.<br>
